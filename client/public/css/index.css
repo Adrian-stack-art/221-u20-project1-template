@@ -1,5 +1,8 @@
-body {
-	
+body { 
+background-size: cover;
+background-image: url("/images/campus.png")
+  
+
 }
 
 #splash_title {

@@ -1,7 +1,7 @@
 header {
 	position: fixed;
 	left:0px;
-	top: 0px;
+	right:0px;
 	height: 60px;
 	width: 100%;
 
@@ -43,7 +43,7 @@ a {
 
 #redfox{
 	position: relative;
-	float: left;
+	float: right;
 	height: 50px;
 	bottom: 5px;
 }
