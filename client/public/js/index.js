@@ -1,6 +1,7 @@
 
 window.addEventListener("load", () => {
   window.addEventListener('keypress', checkKeyPress)
+
 })
 
 /*
@@ -9,6 +10,16 @@ window.addEventListener("load", () => {
 function checkKeyPress(event) {
   if (event.keyCode == 32) 
   console.log(event.keycode);{
-    goToLocation('/feed');c
+    goToLocation('/feed');
   }
 }
+document.addEventListener("DOMContentLoaded", function(){
+  const fadeText = document.getElementById("fade_text");
+
+  if(fadeText){
+    fadeText.addEventListener("click", function (){
+      goToLocation("/feed");
+    })
+  }
+})
+
