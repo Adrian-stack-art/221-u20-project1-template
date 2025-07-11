@@ -16,10 +16,11 @@ function checkKeyPress(e) {
         if(clickTarget) {
         clickTarget.style.cursor = "pointer";
         clickTarget.addEventListener("click", () => {
-            goToLocation("http://my.marist.edu");
+            goToLocation("https://facepunch.com");
         });
     }
     };
+    
 
 
 
