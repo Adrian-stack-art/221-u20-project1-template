@@ -9,6 +9,10 @@ app.get('/feed', function(req, res) {
     res.sendFile('feed.html', {root: './client/views'})
 })
 
+let personController = require('./controller/personController')
 
+app.get("/api/people", () => { 
+    res.send()
+})
 
 app.listen(1337, () => console.log('Listening on port 1337.'))
