@@ -19,6 +19,8 @@ app.route('/api/allFeedItem')
     .post(feedItemController.allFeedItems)
 app.route('/api/allFeedItem/:id')
     .get(feedItemController.getfeedItem)
+    .delete(feedItemController.deleteAllfeedItem)
+    .patch(feedItemController.UpdateFeedUsers)
 
        
        
