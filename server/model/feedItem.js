@@ -6,10 +6,9 @@ function FeedItem(title, body, linkUrl, imageUrl) {
     this.imageUrl = imageUrl
 }
 
-const newFeedItem = (title, body, linkUrl, imageUrl) => {
+exports.newFeedItem = (title, body, linkUrl, imageUrl) => {
     return new FeedItem(title, body, linkUrl, imageUrl);
 };
 
-module.exports = {
-    FeedItem
-};
+ 
+    
